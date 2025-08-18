@@ -1,0 +1,29 @@
+[
+  { 
+    "id": "r1",
+    "propertyId": "101",
+    "propertyName": "Flex Living Soho",
+    "channel": "Airbnb",
+    "rating": 5,
+    "date": "2025-07-01",
+    "text": "Amazing apartment, perfect location!"
+  },
+  {
+    "id": "r2",
+    "propertyId": "102",
+    "propertyName": "Flex Living Shoreditch",
+    "channel": "Booking.com",
+    "rating": 3,
+    "date": "2025-07-05",
+    "text": "Good stay but noisy at night."
+  },
+  {
+    "id": "r3",
+    "propertyId": "101",
+    "propertyName": "Flex Living Soho",
+    "channel": "Hostaway",
+    "rating": 2,
+    "date": "2025-07-10",
+    "text": "Apartment was not very clean."
+  }
+]

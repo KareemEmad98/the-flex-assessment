@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: property-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - BACKEND_URL=http://backend:4000
+      - FRONTEND_URL=http://frontend:3000
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    container_name: property-backend
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=development
