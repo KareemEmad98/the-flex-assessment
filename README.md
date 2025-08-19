@@ -64,44 +64,6 @@ the-flex-assessment/
 
 ## ⚙️ Installation & Setup
 
-### Backend Setup
-
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-The backend runs on `http://localhost:4000` (or the port configured in `.env`).
-
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-The frontend runs on `http://localhost:3000` (default Next.js port).
-
 ### Testing
 
 Run backend tests with Jest:
@@ -112,14 +74,12 @@ npm test
 
 ### Docker
 
-Build and run the backend with Docker:
+Build and run frontend + backend:
 ```bash
-cd backend
-docker build -t theflex-backend .
-docker run -p 5000:5000 theflex-backend
+docker-compose up 
 ```
 
-The backend will be accessible at `http://localhost:5000`.
+The dashboard will be accessible at `http://localhost:3000/dashboard``.
 
 ## 🔗 Example Usage
 
