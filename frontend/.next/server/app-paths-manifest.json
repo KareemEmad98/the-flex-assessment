@@ -1,0 +1,7 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/reviews/[id]/approve/route": "app/api/reviews/[id]/approve/route.js",
+  "/api/reviews/route": "app/api/reviews/route.js",
+  "/property/[listingId]/page": "app/property/[listingId]/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
+}
