@@ -87,7 +87,7 @@ The dashboard will be accessible at `http://localhost:3000/dashboard``.
 - **Property Page**: Open `http://localhost:3000/property/101` to fetch and display reviews for `listingId=101`.
 - **Backend API**: Test the endpoint directly:
   ```
-  GET http://localhost:5000/api/reviews?listingId=101
+  GET http://localhost:4000/api/reviews?listingId=101
   ```
 
 ## 📌 Tech Stack
